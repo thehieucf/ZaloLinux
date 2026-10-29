@@ -1,0 +1,22 @@
+# Zalo's own files and installer: never committed (see README: build them locally)
+/zalosetup-*.exe
+/extract/
+/app/
+
+# Downloaded or built
+/runtime/
+/vendor/
+/build/
+/shims/nativelibs/sqlite3/binding/
+
+# Local data
+/profile/
+/logs/
+
+# Reverse-engineering workspace: Zalo binaries, extracted/decompiled code,
+# Ghidra project, call captures. Only the notes and scripts are ours.
+/re/*
+!/re/NOTES.md
+!/re/ghidra-scripts/
+
+__pycache__/

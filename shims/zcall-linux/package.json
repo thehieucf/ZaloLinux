@@ -1,0 +1,8 @@
+{
+  "name": "zalo-call-linux",
+  "productName": "Zalo Call",
+  "version": "0.1.0",
+  "description": "Linux replacement for Zalo PC's call engine (ZaloCall.exe)",
+  "main": "main.js",
+  "private": true
+}
